@@ -1,3 +1,6 @@
+
+
+
 /* introdução ao javascript*/
 
 //var nome = "gilmar josé"
@@ -101,7 +104,7 @@ console.log(` ${count} ao quadrado é = ${count * count}`)
 
 /* função */
 
-function soma (n1, n2){
+/*function soma (n1, n2){
 return n1 + n2
 
 }
@@ -112,3 +115,24 @@ function setReplace(frase,nome,novo_nome){
 
 alert(soma(20, 13))
 alert(setReplace('vai japão', 'japão','Brasil'))
+*/
+/*
+function clicou(){
+   document.getElementById("agradecimento").innerHTML=" obrigado por clicar <strong>Gilmar josé </strong>";
+}*/
+
+/*function redirecionar(){
+  window.open("https://www.globo.com")//redireiona para outra pagina.
+}*/
+
+/* onmouseover e onmouseout*/
+
+function trocar(elemento){
+    elemento.innerHTML = 'OBRIGADO POR PASSAR O MOUSE'
+}
+
+function voltar(elemento){
+    elemento.innerHTML = 'passe o mouse aqui'
+    
+}
+
